@@ -45,4 +45,5 @@ for step in range(201):
         print(step, sess.run(W), sess.run(b))
         # print(sess.run(x), '\n', sess.run(y))
 
+saver.save(sess, './_intro.ckpt')
 
