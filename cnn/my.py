@@ -4,7 +4,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 # import tensorflow.examples.tutorials.mnist
 from PIL import Image
 import random
-import tensorflow.contrib.learn
+# import tensorflow.contrib.learn
 
 # the convolutional is a example for me.
 # from tensorflow.models.image.mnist import convolutional
