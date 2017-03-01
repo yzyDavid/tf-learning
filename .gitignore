@@ -1,3 +1,6 @@
 *~
 .*~
 .idea/
+*.tar.gz
+cnn/cifar-10-batches-py/
+cnn/cifar-100-python/

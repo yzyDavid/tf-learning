@@ -11,7 +11,7 @@ def main():
 
 def load_data(filename: str) -> dict:
     with open(filename, 'rb') as file:
-        read_dict = pickle.load(file)
+        read_dict = pickle.load(file, encoding='iso-8859-1')
     return read_dict
 
 
